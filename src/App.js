@@ -23,6 +23,7 @@ function App() {
   return (
     <div>
       <TaskHome onTaskAdded={addNewTask} />
+      <h1>Prince Hope</h1>
       <TaskList tasks={taskArray} onDeleteTask={deleteTask} />
     </div>
   );
